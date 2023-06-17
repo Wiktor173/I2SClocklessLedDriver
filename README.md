@@ -402,15 +402,15 @@ delay(18);
 //the duration of the two commands below will be 19ms 
 //the full transposition in the buffer will take 1 ms more or less then the code 
 //goes to the delay function has the displaying if the DMA buffer does not require CPU
-showPixelsFirstTranpose();
+showPixelsFirstTranspose();
 delay(18);
 
 
 //in the example below if the modifytheledfunction() lasts less than the time  need to display the leds 
 //then the second call will wait before starting and then it's like the modifytheledfunction()
-showPixelsFirstTranpose();
+showPixelsFirstTranspose();
 modifytheledfunction() ....
-showPixelsFirstTranpose();
+showPixelsFirstTranspose();
 
 ```
 
